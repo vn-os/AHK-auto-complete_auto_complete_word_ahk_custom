@@ -49,7 +49,7 @@ ResetWord:
 Gui, Suggestions:Hide
 Return
 
-CapsLock & Space::
+Ctrl & Space:: ; CapsLock & Space::
 {
    ClipSave:=ClipboardAll
    clipboard=

@@ -13,7 +13,12 @@ def run_server(port_num=8080):
             return ''
 
         print('GET: ', text)
-        
+
+        words = text.split(" ")
+        if len(words) == 0: return ""
+        print('WORD: ', words[-1])
+        text = f"the {words[-1]}"
+
         try:
             splitted = text.split()
             if len(splitted) < 2:

@@ -22,7 +22,7 @@ This script bases its operation on the python library [autocomplete](https://pyp
     
 4. You can now through a GET request ask for a prediction. The request format is `http://localhost:8080/<text>`
 
-5. Run the `AHKautocomplete.ahk` script and press CapsLock + Space as you type for enable the current writing word prediction.
+5. Run the `AHKautocomplete.ahk` script and press Control + Space as you type for enable the current writing word prediction.
 
 ![example](https://i.ibb.co/sqqdfZw/aaaaaaaaaaaaa.png)
 
